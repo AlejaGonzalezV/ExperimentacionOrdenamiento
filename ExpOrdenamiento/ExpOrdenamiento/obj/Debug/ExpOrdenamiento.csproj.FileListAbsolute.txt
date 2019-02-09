@@ -1,0 +1,7 @@
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\ExperimentoOrdenamiento\ExperimentacionOrdenamiento\ExpOrdenamiento\ExpOrdenamiento\obj\Debug\ExpOrdenamiento.csprojAssemblyReference.cache
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\ExperimentoOrdenamiento\ExperimentacionOrdenamiento\ExpOrdenamiento\ExpOrdenamiento\obj\Debug\ExpOrdenamiento.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\ExperimentoOrdenamiento\ExperimentacionOrdenamiento\ExpOrdenamiento\ExpOrdenamiento\bin\Debug\ExpOrdenamiento.exe.config
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\ExperimentoOrdenamiento\ExperimentacionOrdenamiento\ExpOrdenamiento\ExpOrdenamiento\bin\Debug\ExpOrdenamiento.exe
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\ExperimentoOrdenamiento\ExperimentacionOrdenamiento\ExpOrdenamiento\ExpOrdenamiento\bin\Debug\ExpOrdenamiento.pdb
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\ExperimentoOrdenamiento\ExperimentacionOrdenamiento\ExpOrdenamiento\ExpOrdenamiento\obj\Debug\ExpOrdenamiento.exe
+C:\Users\Miguel\Desktop\Semestres\Semestre 5\Proyecto Integrador\ExperimentoOrdenamiento\ExperimentacionOrdenamiento\ExpOrdenamiento\ExpOrdenamiento\obj\Debug\ExpOrdenamiento.pdb

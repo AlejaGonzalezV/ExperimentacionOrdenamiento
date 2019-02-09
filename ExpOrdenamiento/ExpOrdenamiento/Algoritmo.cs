@@ -21,8 +21,8 @@ namespace ExpOrdenamiento
             arreglo1 = new int[100];
             arreglo2 = new int[1000000];
 
-            generateRandom(100, arreglo1);
-            generateRandom(1000000, arreglo2);
+            //generateRandom(100, arreglo1);
+            //generateRandom(1000000, arreglo2);
 
         }
 
@@ -37,6 +37,51 @@ namespace ExpOrdenamiento
 
             }
         }
+
+		public double AlgoritmoTiempo( int tamano , int algoritmo)
+		{
+			double seg = 0.0;
+			arreglo1 = new int[tamano];
+			for (int i = 0; i < tamano; i++)
+			{
+				Random rnd = new Random();
+				int random = rnd.Next(1, tamano);
+				arreglo1[i] = random;
+
+			}
+
+			if (algoritmo == 1)
+			{
+				DateTime inicio = DateTime.Now;
+				shellSort(arreglo1);
+				DateTime final = DateTime.Now;
+				TimeSpan duracion = final - inicio;
+				double segundosTotales = duracion.TotalSeconds;
+				seg = segundosTotales;
+
+
+
+			}
+
+			else {
+
+				DateTime inicio = DateTime.Now;
+				insertionSort(arreglo1);
+				DateTime final = DateTime.Now;
+				TimeSpan duracion = final - inicio;
+				double segundosTotales = duracion.TotalSeconds;
+				seg = segundosTotales;
+
+
+
+			}
+
+			return seg;
+		}
+
+
+		
+
 
      
         public int[] Arreglo1 { get => arreglo1; set => arreglo1 = value; }
