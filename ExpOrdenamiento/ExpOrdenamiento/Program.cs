@@ -10,6 +10,9 @@ namespace ExpOrdenamiento
     {
         static void Main(string[] args)
         {
+          
+
+
 
 
         }
