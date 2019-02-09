@@ -35,7 +35,7 @@ namespace ExpOrdenamiento
 				{
 					int numero = Int32.Parse(linea2);
 					Console.Write("El timpo es");
-					int tamano = numero == 1 ? 10 : 1000000;
+					int tamano = numero == 1 ? 100 : 1000000;
 					double tiempo = algoritmo.AlgoritmoTiempo(tamano, algo);
 					Console.WriteLine();
 					Console.Write(tiempo);

@@ -40,7 +40,7 @@ namespace ExpOrdenamiento
 
 		public double AlgoritmoTiempo( int tamano , int algoritmo)
 		{
-			double seg = 0.0;
+			 
 			arreglo1 = new int[tamano];
 			for (int i = 0; i < tamano; i++)
 			{
@@ -57,26 +57,26 @@ namespace ExpOrdenamiento
 				DateTime final = DateTime.Now;
 				TimeSpan duracion = final - inicio;
 				double segundosTotales = duracion.TotalSeconds;
-				seg = segundosTotales;
+				tiempo = segundosTotales;
 
 
 
 			}
 
-			else {
+			else if(algoritmo == 2){
 
 				DateTime inicio = DateTime.Now;
 				insertionSort(arreglo1);
 				DateTime final = DateTime.Now;
 				TimeSpan duracion = final - inicio;
 				double segundosTotales = duracion.TotalSeconds;
-				seg = segundosTotales;
+				tiempo = segundosTotales;
 
 
 
 			}
 
-			return seg;
+			return tiempo;
 		}
 
 
