@@ -18,10 +18,24 @@ namespace ExpOrdenamiento
 
             arreglo1 = new int[100];
             arreglo2 = new int[1000000];
+            generateRandom(100, arreglo1);
+            generateRandom(1000000, arreglo2);
 
         }
 
-        public void shellSort()
+        public void generateRandom(int quantity,int[] array)
+        {
+
+            for (int i = 0; i < quantity; i++)
+            {
+                Random rnd = new Random();
+                int random = rnd.Next(1, 1000000);
+                array[i] = random;
+
+            }
+        }     
+
+            public void shellSort()
         {
 
             int salto = 0;
