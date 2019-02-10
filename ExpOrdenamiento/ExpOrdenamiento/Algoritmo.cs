@@ -19,7 +19,7 @@ namespace ExpOrdenamiento
 
             tiempo = 0;
             arreglo1 = new int[100];
-            arreglo2 = new int[1000000];
+            arreglo2 = new int[100000];
 
             //generateRandom(100, arreglo1);
             //generateRandom(1000000, arreglo2);
@@ -32,7 +32,7 @@ namespace ExpOrdenamiento
             for (int i = 0; i < quantity; i++)
             {
                 Random rnd = new Random();
-                int random = rnd.Next(1, 1000000);
+                int random = rnd.Next(1, 100000);
                 array[i] = random;
 
             }
@@ -92,8 +92,6 @@ namespace ExpOrdenamiento
         public void shellSort(int[] array)
 
         {
-            TimeSpan stop;
-            TimeSpan start = new TimeSpan(DateTime.Now.Ticks);
 
             int salto = 0;
             int sw = 0;
@@ -122,14 +120,11 @@ namespace ExpOrdenamiento
                 salto = salto / 2;
             }
 
-            stop = new TimeSpan(DateTime.Now.Ticks);
-            tiempo = stop.Subtract(start).TotalMilliseconds;
         }
 
         public void insertionSort(int[] arrayToSort)
         {
-            TimeSpan stop;
-            TimeSpan start = new TimeSpan(DateTime.Now.Ticks);
+          
 
             for (int i = 1; i < arrayToSort.Length; i++)
             {
@@ -145,8 +140,7 @@ namespace ExpOrdenamiento
                     }
                 }
             }
-            stop = new TimeSpan(DateTime.Now.Ticks);
-            tiempo = stop.Subtract(start).TotalMilliseconds;
+           
         }
 
 

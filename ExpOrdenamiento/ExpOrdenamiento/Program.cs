@@ -27,7 +27,7 @@ namespace ExpOrdenamiento
 			if (linea!="")
 			{
 				int algo = Int32.Parse(linea);
-				Console.Write("Escriba 1 si quiere que el tamano del arreglo sea 100, o escriba 2 si quiere que el tamano del arreglo sea 1000000");
+				Console.Write("Escriba 1 si quiere que el tamano del arreglo sea 100, o escriba 2 si quiere que el tamano del arreglo sea 100000");
 				Console.WriteLine();
 					
 				String linea2 = Console.ReadLine();
@@ -35,7 +35,7 @@ namespace ExpOrdenamiento
 				{
 					int numero = Int32.Parse(linea2);
 					Console.Write("El timpo es");
-					int tamano = numero == 1 ? 100 : 1000000;
+					int tamano = numero == 1 ? 100 : 100000;
 					double tiempo = algoritmo.AlgoritmoTiempo(tamano, algo);
 					Console.WriteLine();
 					Console.Write(tiempo);
